@@ -1,6 +1,6 @@
 <?php
 
-    // Wenn keine Konstante __CONFIG__ definiert ist, wird die Config nicht geladen
+    // Wenn keine Konstante definiert ist, wird die Config nicht geladen
     if (!defined('FOOTERALLOWED')) {
         Exit('Non Config Available');
     }

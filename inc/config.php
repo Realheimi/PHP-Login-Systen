@@ -6,7 +6,9 @@
     }
 
     //erlaubte inc Dateien
+    define('HEADERALLOWED', true);
     define('FOOTERALLOWED', true);
+    define('NAVBARALLOWED', true);
 
 
     // Hier Startet die Config
