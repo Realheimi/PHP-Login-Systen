@@ -1,6 +1,6 @@
 <?php
 
-    // Wenn keine Konstante definiert ist, wird die Config nicht geladen
+    // Wenn keine Konstante definiert ist, wird die Datei nicht geladen
     if (!defined('NAVBARALLOWED')) {
         Exit('Non Config Available');
     }

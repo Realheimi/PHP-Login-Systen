@@ -12,4 +12,10 @@
 
 
     // Hier Startet die Config
+
+    // die DB Klasse laden
+    include_once "classes/DB.php";
+
+    $con = DB::getConnection();
+
 ?>
