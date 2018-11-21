@@ -32,6 +32,7 @@
         <label for="exampleInputPassword1">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword1" required="required" placeholder="Password">
     </div>
+    <div class="alert alert-danger js-error" role="alert" style="display: none;"> </div>
     <button type="submit" class="btn btn-danger">Registrieren</button>
     </form>
     </div>

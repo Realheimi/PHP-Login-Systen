@@ -11,6 +11,6 @@
     $config['sql_username'] = 'u23897';             // Benutzername 
     $config['sql_password'] = '2AG9bF1xFNjb';       // Kennwort 
     $config['sql_database'] = 'db23897';            // Datenbank 
-
+    $config['sql_statement'] = 'mysql:charset=utf8mb4;host=mysql04.manitu.net;port=3306;dbname=db23897';
 
 ?>
