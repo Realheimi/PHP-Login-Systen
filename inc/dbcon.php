@@ -7,10 +7,10 @@
 
     // Hier die Zugangsdaten zur Datenbank getrennt, damit sie nicht auf GitHub landen.
 
-    $config['sql_hostname'] = 'mysql04.manitu.net'; // MySQL-Server 
-    $config['sql_username'] = 'u23897';             // Benutzername 
-    $config['sql_password'] = '2AG9bF1xFNjb';       // Kennwort 
-    $config['sql_database'] = 'db23897';            // Datenbank 
-    $config['sql_statement'] = 'mysql:charset=utf8mb4;host=mysql04.manitu.net;port=3306;dbname=db23897';
+    $config['sql_hostname'] = 'localhost'; // MySQL-Server 
+    $config['sql_username'] = 'dbuser';             // Benutzername 
+    $config['sql_password'] = 'password';       // Kennwort 
+    $config['sql_database'] = 'dndslh';            // Datenbank 
+    $config['sql_statement'] = 'mysql:charset=utf8mb4;host=localhost;port=3306;dbname=dndslh';
 
 ?>

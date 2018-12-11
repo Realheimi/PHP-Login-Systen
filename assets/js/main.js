@@ -21,7 +21,10 @@ $(document)
             .show();
     }
 
-    console.log(data);
+    // Wenn der Code bis hierhin durchgeht, den Fehler ausblenden
+    _error.hide();
+
+    $.ajax
 
     return false;
 
